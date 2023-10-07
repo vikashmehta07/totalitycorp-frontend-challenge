@@ -144,7 +144,10 @@ export default function Checkout() {
                 <input type="checkbox" name="sameadr" /> Shipping address same
                 as billing
               </label>
-              <Button> Continue </Button>
+            <NavLink to="/checkout">
+                <Button> Continue </Button>
+            </NavLink>
+              
             </form>
           </div>
         </div>

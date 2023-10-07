@@ -5,6 +5,7 @@ import { Button } from "./styles/Button";
 import styled from "styled-components";
 import { useCartContext } from "./context/cart_context";
 import FormatPrice from "./Helpers/FormatPrice";
+import { NavLink } from "react-router-dom";
 
 
 export default function Checkout() {
